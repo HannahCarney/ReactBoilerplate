@@ -1,0 +1,9 @@
+.DS_Sore
+*.log
+
+/node_modules
+
+/dist
+
+/.idea
+/.vscode

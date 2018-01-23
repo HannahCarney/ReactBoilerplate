@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "apsley_holding",
   "version": "1.0.0",
   "description": "under construction page for apsley",
@@ -16,4 +17,63 @@
   ],
   "author": "SuperHans Carney",
   "license": "ISC"
+=======
+  "name": "APP_NAME_CHANGE_ME",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack/webpack.config.local.js --define __COMMIT_SHA__=\"'$(git rev-parse HEAD)'\"",
+    "lint": "eslint *.js src",
+    "test": "echo \"no tests specified\"",
+    "build": "npm run clean && BABEL_ENV=production webpack -p --define __COMMIT_SHA__=\"'$COMMIT_SHA'\"",
+    "clean": "rm -rf dist/*",
+    "build:development": "npm run build -- --config webpack/webpack.config.development.js",
+    "build:production": "npm run build -- --config webpack/webpack.config.production.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "font-awesome": "^4.7.0",
+    "lodash.merge": "^4.6.0",
+    "normalize.css": "^7.0.0",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.2",
+    "redux-persist": "^4.8.0",
+    "redux-thunk": "^2.2.0",
+    "rollbar": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^2.0.1",
+    "redux-devtools-extension": "^2.13.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+>>>>>>> upstream/master
 }

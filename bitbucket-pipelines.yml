@@ -1,0 +1,23 @@
+image: node:6
+pipelines:
+  default:
+    - step:
+        script:
+          - make install_yarn
+          - make
+    
+  branches:
+    development:
+      - step:
+          script:
+            - make install_yarn
+            - make install_awscli
+            - make deploy-development
+
+  custom:
+    deploy-to-production:
+      - step:
+          script:
+            - make install_yarn
+            - make install_awscli
+            - make deploy
