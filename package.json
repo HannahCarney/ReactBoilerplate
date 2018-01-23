@@ -1,0 +1,19 @@
+{
+  "name": "apsley_holding",
+  "version": "1.0.0",
+  "description": "under construction page for apsley",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "holding",
+    "apsley"
+  ],
+  "author": "SuperHans Carney",
+  "license": "ISC"
+}
