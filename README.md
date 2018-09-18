@@ -9,10 +9,10 @@ A base project for starting new web apps. Contains a sane webpack setup, environ
     * `git init`
     * `git commit --allow-empty -m "initial commit"`
 * Add this repository as a git remote and merge in changes:
-    * `git remote add upstream git@bitbucket.org:playconsulting/react-boilerplate.git`
+    * `git remote add upstream https://github.com/HannahCarney/ReactBoilerplate.git`
     * `git fetch upstream`
     * `git merge --allow-unrelated-histories --squash upstream/master`
-    * `git commit -m "bootstrap from https://bitbucket.org/playconsulting/react-boilerplate"`
+    * `git commit -m "bootstrap from https://github.com/HannahCarney/ReactBoilerplate.git"`
 * Remove the remote:
     * `git remote remove upstream`
 * Set the name of your project in `package.json`, using the `name` key
