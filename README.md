@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# Apsley-Holding
 
-=======
 # React Boilerplate project
 
 A base project for starting new web apps. Contains a sane webpack setup, environmental config, redux, axios http client, routing, basic login screen, rollbar error reporting, eslint and CI/Deployment setup for bitbucket/S3.
@@ -48,4 +45,4 @@ Increment the version in `package.json` and push the tag to bitbucket:
 ## Building for production
 
 Run the `deploy-to-production` bitbucket pipeline on the tag you created, if you have access.
->>>>>>> upstream/master
+
